@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Light'), 
+		url('../fonts/Montserrat-Light.woff') format('woff'), 
+		url('../fonts/Montserrat-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Regular'), 
+		url('../fonts/Montserrat-Regular.woff') format('woff'), 
+		url('../fonts/Montserrat-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat SemiBold'), 
+		url('../fonts/Montserrat-SemiBold.woff') format('woff'), 
+		url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+  }
+  
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Medium'), 
+		url('../fonts/Montserrat-Medium.woff') format('woff'), 
+		url('../fonts/Montserrat-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: normal;
+}
+  
+:root {
+    /* font sizes */
+    --large-size: 16px;
+    --paragraph-light-size: 14px;
+	--description-size: 8px;
+    --h1-size: 32px;
+    --h2-size: 20px;
+    --h3-size: 16px;
+
+    /* font weight */
+	--font-weight-light: 400;
+    --font-weight-medium: 500;
+	--font-weight-semiBold: 600;
+
+	/* line height */
+	--line-height-default: 140%;
+  
+    /* Colors */
+    --black-light: #161615;
+    --black-dark: #080808;
+    --grey-light: #e6e6e6;
+    --white: #fff;
+    --color-royalblue: #4b6aea;
+    --grey-dark: #737373;
+    --red: #d22f26;
+
+    /* Gaps */
+	--gap-11xs: 2px;
+    --gap-5xl: 24px;
+    --gap-xl: 20px;
+    --gap-xs: 12px;
+    --gap-7xs: 6px;
+    --gap-9xs: 4px;
+    --gap-base: 16px;
+    --gap-131xl: 150px;
+    --gap-23xl: 42px;
+    --gap-2xl: 21px;
+    --gap-5xs: 8px;
+
+    /* Paddings */
+    --padding-21xl: 40px;
+    --padding-base: 16px;
+    --padding-6xs: 6px;
+    --padding-xl: 30px;
+    --padding-5xs: 8px;
+    --padding-5xl: 24px;
+    --padding-xs: 12px;
+    --padding-12xs: 1px;
+    --padding-43xl: 62px;
+    --padding-9xs: 4px;
+
+    /* Border radiuses */
+	--padding-sm: 14px;
+    --br-3xs: 10px;
+    --br-9xs: 4px;
+    --br-xl: 20px;
+    --br-14xl: 33px;
+    --br-base: 16px;
+    --br-481xl: 500px;
+    --br-11xs: 2px;
+    --br-81xl: 100px;
+}
